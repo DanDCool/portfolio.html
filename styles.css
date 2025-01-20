@@ -141,6 +141,7 @@ body {
 .box ul li {
     font-size: 1.1rem;
     margin-bottom: 10px;
+    color: #000; /* Set li text color to black */
 }
 
 /* Footer */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Page">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <button class="menu-btn" onclick="openSidebar()">☰ Menu</button>
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="closeSidebar()">✖</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <header class="header-container">
+            <div class="header-text">
+                <h1>Amirali Hosseini Moghaddam - Portfolio</h1>
+                <p>Explore my projects and skills</p>
+            </div>
+        </header>
+
+        <section class="box projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <p>Description of your first project.</p>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <p>Description of your second project.</p>
+                </li>
+                <li>
+                    <h3>Project 3</h3>
+                    <p>Description of your third project.</p>
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+
+        <section class="box skills">
+            <h2>Skills</h2>
+            <p>Here are some of the skills I have developed over time:</p>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section class="box contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:amirali.hm.2006@gmail.com">amirali.hm.2006@gmail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Amirali Hosseini Moghaddam. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.width = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.width = "0";
+        }
+    </script>
+</body>
+</html>

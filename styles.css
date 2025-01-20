@@ -1,0 +1,141 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('professional-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 0 20px; /* Added padding to create space from sides */
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Black sidebar */
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px 25px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+/* Close button inside sidebar */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #ddd;
+}
+
+/* Menu button */
+.menu-btn {
+    font-size: 1.5rem;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #ddd;
+}
+
+/* Header section */
+.header-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for header */
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Content styling */
+.content {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* Section boxes */
+.box {
+    background-color: rgba(255, 255, 255, 0.1); /* Light dark background for content */
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px; /* Added space from sides */
+    margin-right: 20px; /* Added space from sides */
+}
+
+.box h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark footer */
+    color: #fff;
+    border-radius: 10px;
+}
